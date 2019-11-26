@@ -11,6 +11,7 @@ Bailey–Borwein–Plouffe formula | Bellard’s formula | Chudnovsky algorithm
 ------------------------------ | ----------------- | ---------------------
 [Link](http://en.wikipedia.org/wiki/Bailey%E2%80%93Borwein%E2%80%93Plouffe_formula) | [Link](http://en.wikipedia.org/wiki/Bellard%27s_formula) | [Link](http://en.wikipedia.org/wiki/Chudnovsky_algorithm)
 ## Bailey–Borwein–Plouffe formula:
+![plouffeFormula](/img/plouffeFormula.png)
 ```python 
 def plouffBig(n):
     pi = Decimal(0)
@@ -20,6 +21,7 @@ def plouffBig(n):
         k += 1
 ```
 ## Bellard’s formula
+![bellardFormula](/img/bellardFormula.png)
 ```python 
 def bellardBig(n):
     pi = Decimal(0)
@@ -30,6 +32,7 @@ def bellardBig(n):
     pi = pi * 1/(2**6)
 ```
 ## Chudnovsky algorithm
+![chudnovskyFormula](/img/chudnovskyFormula.png)
 ```python
 def chudnovskyBig(n):
     pi = Decimal(0)
